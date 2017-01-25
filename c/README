@@ -1,0 +1,5 @@
+#Compilation (standard)
+gcc main.c -o main -fno-stack-protector
+
+#Compilation (stack protector)
+gcc main.c -o main
